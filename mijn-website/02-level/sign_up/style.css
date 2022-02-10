@@ -1,0 +1,18 @@
+input {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.button {
+    width:auto
+}
+
+textarea {
+    border-color: red;
+    border-width: 5px;
+    outline: none;
+}
+
+textarea:focus {
+    border-color: green;
+}

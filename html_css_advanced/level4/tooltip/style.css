@@ -1,0 +1,25 @@
+.content {
+    position: relative;
+}
+
+.tooltip {
+    position: fixed;
+}
+
+.icon {
+    position: relative;
+    top: 5px;
+    left: 380px;      
+}    
+
+.tooltip-content {
+    display: none;
+}
+
+.icon:hover + .tooltip-content {
+    display: block;
+    background-color: black;
+    color: white;
+    width: 400px;
+}
+

@@ -1,0 +1,57 @@
+
+table, th, td {
+    border: 1px solid black;
+    border-spacing: 5px;
+}
+
+.grijs {
+   background-color: lightgrey;
+   text-align: center;
+   padding-top: 25px;
+   margin: 0px;
+   width: 60px;
+   height: 50px;
+   
+}
+.oranje {
+
+    background-color: orange;
+    text-align: center;
+    margin: 0px;
+    width: 60px;
+    height: 50px;
+    font-weight: bold;
+    
+    
+}
+.paars {
+
+    background-color: mediumpurple;
+    text-align: center;
+    margin: 0px;
+    width: 60px;
+    height: 50px;
+    font-weight: bold;
+}
+.blauw {
+
+    background-color: lightskyblue ;
+    text-align: center;
+    margin: 0px;
+    width: 60px;
+    height: 50px;
+    font-weight: bold;
+}
+.geel {
+
+    background-color: khaki;
+    text-align: center;
+    margin: 0px;
+    width: 60px;
+    height: 50px;
+    font-weight: bold;
+}
+td:hover {
+    background-color: chartreuse;
+    cursor: pointer;
+} 

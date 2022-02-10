@@ -1,0 +1,65 @@
+
+a {
+    color: rgb(228, 22, 22);
+}
+
+
+
+body {
+    background-color: rgb(0,0,36);
+    
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+img {
+    width: 20px;
+}
+
+
+.beschrijving {
+    display: flex;
+    width: 80%;
+    color: white;
+    border: gold 2px solid;
+    padding: 0px 20px;
+}
+
+table {
+    color: gray;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: rgb(29, 27, 66);
+}
+h1, h2, h4 {
+    color: rgb(204, 18, 18);
+}
+
+th  {
+    color: gray;
+    font-size: smaller;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 36);
+}
+
+td  {
+    color: gray;
+    text-align: left;
+    font-size: small;
+    padding: 10px;
+    border: #000024 solid 2px;
+}
+
+.trailer {
+    display: flex;
+    margin-top: 50px;
+}
+

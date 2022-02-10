@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+body {    
+    max-width: 100%;
+    background-color: rgb(247, 247, 247);
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(42, 30, 210);
+    padding-left: 5px;
+    color: lightgray;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo > img {
+    width: 75px;
+}
+
+.middenmenu {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.menuicon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+}
+
+img[src^="feed"] {
+    background-color: white;
+}
+
+.menuicon > img {
+    height: 20px;
+    align-items: center;    
+}
+
+.dot > img {
+    height: 18px;
+    align-items: center;  
+    margin-left: 5px;  
+}
+.rightmenu {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.levelbar {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: rgb(108, 188, 219);
+    height: 20px;
+    width: 150px;
+    border-radius: 4px;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: lightgray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contentleft {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+    padding: 15px;
+}
+
+.contentright {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-collapse: collapse;
+    border: 1px solid lightgray;
+    box-shadow: 1px 3px lightgray;
+    width: 15%;
+    padding: 15px;
+    font-size: small;
+    margin-top: 20px;
+}
+
+.contentright > img {
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: small;
+    background-color: white;
+    box-shadow: 1px 3px lightgray;
+}
+
+th {
+   font-size: smaller; 
+   text-align: left;
+   padding: 10px;
+}
+
+tr {
+    border-bottom: 1px solid lightgray;
+}
+
+td {
+    padding: 5px 15px; 
+}
+
+button {
+    background-color: rgb(133, 190, 158);
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+}
+
